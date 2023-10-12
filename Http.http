@@ -1,0 +1,6 @@
+GET http://127.0.0.1:8080/iss
+Accept: application/json
+
+### GET request with parameter
+GET http://127.0.0.1:8080/iss/200
+Accept: application/json
