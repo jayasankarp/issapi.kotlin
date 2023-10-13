@@ -23,6 +23,8 @@ repositories {
 }
 
 dependencies {
+    implementation("com.squareup.okhttp3:okhttp:4.9.1")
+    implementation("com.google.code.gson:gson:2.8.8")
     implementation("io.ktor:ktor-server-core-jvm")
     implementation("io.ktor:ktor-server-content-negotiation-jvm")
     implementation("io.ktor:ktor-serialization-kotlinx-json-jvm")
